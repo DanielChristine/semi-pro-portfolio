@@ -1,0 +1,20 @@
+{
+  "name": "semi-pro-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielChristine/semi-pro-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielChristine/semi-pro-portfolio/issues"
+  },
+  "homepage": "https://github.com/DanielChristine/semi-pro-portfolio#readme"
+}
