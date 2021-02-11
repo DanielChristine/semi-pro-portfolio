@@ -11,13 +11,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Mr Semi Pro</title>
-    <link rel="stylesheet" type="text/css" href="styles/styles.css" /></link>
+    <link rel="stylesheet" type="text/css" href="styles.css" /></link>
 </head>
 
 <body>
-    <a><img src="DC Web Design.png" width="60" height="60"></a>
-    <button type="button" onclick="carouselColors()">Action button!</button>
-    <ul class="nav flex-column">
+  <a><img src="DC Web Design.png" width="60" height="60"></a>
+    
+    <ul class="nav flex-row">
       <li class="nav-item">
         <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="index.html">Home</a>
       </li>
@@ -32,17 +32,37 @@
       </li>
     </ul>
     
-        <div class="content">
-          <h2>My Portfolio Portal</h2>
-          <p>You are currently on my homepage. Please navigate the rest of the site!</p>
-          <p>This is an example of my work.</p>
-          <p>Lookout behind you! </p>
-          <h3>This is an amazing sidenav bar!</h3>
-          <a><img src="Styles/homeimage.jfif" width="600" height="400"></a>
-          <p></p>
-        </div>
+    <div class="content">
+      <h2>My Portfolio Portal</h2>
+      <p>You are currently on my homepage. Please navigate the rest of the site!</p>
+      <p>This is an example of my work.</p>
+      <p>Lookout behind you! </p>
+      <h3>This is an amazing sidenav bar!</h3>
+      <a><img src="Styles/homeimage.jfif" width="600" height="400"></a>
+      <p></p>
+    </div>
+
+    <div class="carousel">
+      <button class="carousel__button"></button>
+      <img src="noButton.png"> 
+     
+      <ul class="carousel__track-container">
+          <li class="carousel1">
+            <img src="caroHex1.png">  
+          </li>
+
+          <li class="carousel2">
+            <img src="caroHex2.png">
+          </li>
+
+          <li class="carousel3">
+            <img src="caroHex3.png">
+          </li>
+          
+      </ul>
+    </div>
     
-        <script type="text/javascript" src="portfolioWebsite.js"></script>
+        <script type="text/javascript" src="main.js"></script>
     
 </body>
 </html>
